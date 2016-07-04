@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link href="simple.css" rel="stylesheet">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$(window).scroll(function(){
+  $(".right-sidebar").stop().animate({"marginTop": ($(window).scrollTop()) + "px", "marginLeft":($(window).scrollLeft()) + "px"}, "slow" );
+});
+		$(document).ready(function(){
+			$('#adt').click(function(){
+				if ($('.contact').is(":hidden")) {
+					$('.contact').slideDown('slow');
+					//$('.contact').css('background-color','black')
+				}
+				else{
+					$('.contact').hide();
+					
+
+					
+				}
+			});
+		});
+	</script>
+	
+	
+</head>
+<body>
+	
+	<div class="container-fluid" id="main">
+		<div class="row">
+			<div class="col-sm-2" id="sidebar">
+				<ul class="sidebar-nav" style="list-style-type:none">
+					<li class="sidebar-brand" >Sorting Algorithms
+					
+						<ul style="list-style-type:none" id="submenu" class="collapse1">
+							<li><a href="">Insertion Sort</a></li>
+							<li><a href="">Radix Sort</a></li>
+							<li><a href="">Merge Sort</a></li>
+							<li><a href="">Sort</a></li>
+						</ul>
+						
+					</li>
+					<li class="sidebar-brand" >Binary Search Tree
+					
+						<ul style="list-style-type:none" id="submenu">
+							<li><a href="">Insertion Sort</a></li>
+							<li><a href="">Radix Sort</a></li>
+							<li><a href="">Merge Sort</a></li>
+							<li><a href="">Sort</a></li>
+						</ul>
+					
+					</li>
+					<li class="sidebar-brand" >Greedy Algorithms
+					
+						<ul style="list-style-type:none" id="submenu">
+							<li><a href="">Insertion Sort</a></li>
+							<li><a href="">Radix Sort</a></li>
+							<li><a href="">Merge Sort</a></li>
+							<li><a href="">Sort</a></li>
+						</ul>
+					
+					</li>
+					<li class="sidebar-brand" >Dynamic Programming
+					
+						<ul style="list-style-type:none" id="submenu">
+							<li><a href="">Insertion Sort</a></li>
+							<li><a href="">Radix Sort</a></li>
+							<li><a href="">Merge Sort</a></li>
+							<li><a href="">Sort</a></li>
+						</ul>
+				
+					</li>
+					<li class="sidebar-brand">Graphs
+						
+						<ul style="list-style-type:none" id="submenu">
+							<li><a href="">Insertion Sort</a></li>
+							<li><a href="">Radix Sort</a></li>
+							<li><a href="">Merge Sort</a></li>
+							<li><a href="">Sort</a></li>
+						</ul>
+						
+					</li>
+					<li class="sidebar-brand">Miscellaneous Examples
+						
+						<ul style="list-style-type:none" id="submenu">
+							<li><a href="">Insertion Sort</a></li>
+							<li><a href="">Radix Sort</a></li>
+							<li><a href="">Merge Sort</a></li>
+							<li><a href="">Sort</a></li>
+						</ul>
+					
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-7" id="text">
+				<nav class="navbar navbar-default navbar-fixed-top" id="nav-wrapper">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<a href="" class="navbar-brand">HOME</a>
+						</div>
+						<ul class="nav navbar-nav navbar-right" id="navbar-items">
+							<li><a href="">Data Structures</a></li>
+							<li class="dropdown">
+								<a href="" class="dropdown-toggle" data-toggle="dropdown">Algorithms <span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="">Insertion Sort</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="" class="dropdown-toggle" data-toggle="dropdown">Miscellaneous Examples <span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="">Insertion Sort</a></li>
+								</ul>
+							</li>
+							<li><a href="">Question & Answers</a></li>
+						</ul>
+					</div>
+				</nav>
+				
+				<div class="jumbotron">
+
+					<h3>Hahaha....</h3>
+					<h3 class="text-center">Data Structures & Algorithms</h3>
+					<p>In computer science, a data structure is a particular way of organizing data in a computer so that it can be used efficiently.[1][2] Data structures can implement one or more particular abstract data types (ADT), which specify the operations that can be performed on a data structure and the computational complexity of those operations. In comparison, a data structure is a concrete implementation of the specification provided by an ADT.
+
+					Different kinds of data structures are suited to different kinds of applications, and some are highly specialized to specific tasks. For example, relational databases commonly use B-tree indexes for data retrieval,[3] while compiler implementations usually use hash tables to look up identifiers.
+
+					Data structures provide a means to manage large amounts of data efficiently for uses such as large databases and internet indexesing services. Usually, efficient data structures are key to designing efficient algorithms. Some formal design methods and programming languages emphasize data structures, rather than algorithms, as the key organizing factor in software design. Data structures can be used to organize the storage and retrieval of information stored in both main memory and in secondary memory.</p>
+					<p>In computer science, a data structure is a particular way of organizing data in a computer so that it can be used efficiently.[1][2] Data structures can implement one or more particular abstract data types (ADT), which specify the operations that can be performed on a data structure and the computational complexity of those operations. In comparison, a data structure is a concrete implementation of the specification provided by an ADT.
+
+					Different kinds of data structures are suited to different kinds of applications, and some are highly specialized to specific tasks. For example, relational databases commonly use B-tree indexes for data retrieval,[3] while compiler implementations usually use hash tables to look up identifiers.
+
+					Data structures provide a means to manage large amounts of data efficiently for uses such as large databases and internet indexing services. Usually, efficient data structures are key to designing efficient algorithms. Some formal design methods and programming languages emphasize data structures, rather than algorithms, as the key organizing factor in software design. Data structures can be used to organize the storage and retrieval of information stored in both main memory and in secondary memory.
+					</p>
+					<a data-toggle="collapse" data-target="#demo">Data Structures</a>
+					<div id="demo" class="collapse">
+						<p>Data Structures are very usefull to arrange data.</p>
+					</div>
+					
+				</div>
+				<div class="jumbotron">
+					<h3>HEllo</h3>
+					<p>This is a text</p>
+				</div>
+				<p data-toggle="collapse" data-target="#demo2">Hahaha....</p>
+				<div id="demo2" class="collapse">
+					<p>Joker Text Goes here.</p>
+				</div>
+			</div>
+			<div class="col-sm-3" id="advert">
+				<div class="container-fluid right-sidebar">
+					<ul class="sidebar-nav" style="list-style-type:none">
+						<li><h3>Related code</h3></li>
+						<li>Implemnetation</li>
+						<li>code implemented</li>
+						<li>etc...</li>
+					</ul>
+					<ul class="sidebar-nav" style="list-style-type:none">
+						<li><h3>Quick Links</h3></li>
+						<li><a href="">Sorting Algo's</a></li>
+						<li><a href="">Trees</a></li>
+						<li><a href="">Graphs</a></li>
+						<li><a href="">Dynamic Programming</a></li>
+						<li><a href="">Greedy Algo's</a></li>
+					</ul>
+				</div>
+				<div class="bottom-menu">
+					<p id="adt" class="text-center">Advertise Here</p>
+					<div class="contact">
+						<ul style="list-style-type:none">
+							<li>About us</li>
+							<li>Where to find us</li>
+							<li>who we are</li>
+						</ul>
+						<p>Where is your downbar menu.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<p data-toggle="collapse" data-target="#tex">something</p>
+		<p id="tex">hahahaha.....really collapsed!!</p>
+	</div>
+</body>
+</html>
